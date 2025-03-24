@@ -1,2 +1,2 @@
 # DDPM-Implementation
-An In-Depth Implementation of DDPM
+This implementation of Denoising Diffusion Probabilistic Models (DDPM) in PyTorch from scratch focuses on building and training a generative model using the diffusion process. The code leverages the power of neural networks to model the reverse diffusion process, gradually denoising data to generate high-quality samples. The approach covers essential aspects of DDPM, such as the forward and reverse processes, loss function, and network architecture, providing a hands-on understanding of how diffusion models work. The implementation is designed to be easily customizable and can be used for various generative tasks, such as image synthesis.
