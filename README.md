@@ -37,7 +37,7 @@ This implementation of Denoising Diffusion Probabilistic Models (DDPM) in PyTorc
         (The Time embedding dimension are as same as the channels embedding because of which we can add time dimension
         across the spatial dimension)
 
-        ![DownSampling Block](/images/downsampling.png)
+        ![DownSampling Block](images/downsampling.png)
 
 
 
