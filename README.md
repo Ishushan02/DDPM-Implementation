@@ -40,15 +40,12 @@ This implementation of Denoising Diffusion Probabilistic Models (DDPM) in PyTorc
 ![DownSampling Image](images/downsampling.png)
 
 
-
-
-
-        
-
-
-
-
     MidBlock
+    - This has the same resolution across entire block, which consists of a Resnet and then followed by Self Attention blocks.
+    - 
 
 
     UpSampling
+    - The Upblock basically does is upsamples the image and doubles the resolution making sure that the end spatial dimension 
+    is matched. It also concatenates the downblock output with the Upsampling block across the channels.
+    - The rest of the blocks are as same as that of the Downsampling Layer.
