@@ -49,3 +49,7 @@ This implementation of Denoising Diffusion Probabilistic Models (DDPM) in PyTorc
     - The Upblock basically does is upsamples the image and doubles the resolution making sure that the end spatial dimension 
     is matched. It also concatenates the downblock output with the Upsampling block across the channels.
     - The rest of the blocks are as same as that of the Downsampling Layer.
+
+
+For this Experiment, the The training was done for about 3 epochs with 1000 timestamps.
+![Output Image](images/output_video.mp4)
