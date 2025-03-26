@@ -52,4 +52,4 @@ This implementation of Denoising Diffusion Probabilistic Models (DDPM) in PyTorc
 
 
 For this Experiment, the The training was done for about 3 epochs with 1000 timestamps.
-![Output Image](images/output_video.mp4)
+![Output](images/output.gif)
