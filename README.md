@@ -48,5 +48,7 @@ This implementation of Denoising Diffusion Probabilistic Models (DDPM) in PyTorc
     - The rest of the blocks are as same as that of the Downsampling Layer.
 
 
-For this Experiment, the The training was done for about 3 epochs with 1000 timestamps.
+For this Experiment, the The training was done for about 3 epochs with 1000 timestamps. As the training was done just for 3 epochs the  results are not good which was expected, and bit distorted. Hence if you want to use this code, try training it for longer epochs
+to get better results.
+
 ![Output](images/output.gif)
